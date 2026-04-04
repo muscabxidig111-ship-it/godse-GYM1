@@ -16,9 +16,6 @@ p{
 
 }
 footer{
-    text-align: center;
+    text-align: right;
     background-color: darkturquoise;
-}
-nav{
-    float: right;
 }
