@@ -2,6 +2,24 @@
 <html lang="en">
 
 <head>
+    <style>
+        .box {
+            border: 3px solid black;
+
+            background-color: red;
+            color: white;
+            box-shadow: 5px 8px 15px rgba(197, 4, 4, 0.637);
+           
+
+        }
+
+        .box:hover {
+            background-color: #5a2cd8b6;
+            transform: scale(1.1);
+            transition: 0.4s;
+            cursor: pointer;
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,7 +91,7 @@
         </ul>
         <h2>jion section</h2>
         <p>Start your fitness journey with us and become the best version of yourself.</p>
-        <button>jion now</button>
+        <button class="box">jion now</button>
     </main>
     <footer>
         &copy;2026 CHOST-GYM
